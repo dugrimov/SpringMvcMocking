@@ -23,7 +23,7 @@ public class CreateUserCommandTest {
 
     @Test
     public void testExecute() {
-        // Creates the object that command will pass to the repositorys
+        // Creates the object that command will pass to the repository
         final UserModel userModel = new UserModel();
         userModel.setName("John");
         userModel.setEmail("john@test.com");
